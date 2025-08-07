@@ -1,0 +1,19 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "start": "npm start --prefix backend",
+    "dev": "concurrently \"npm run server --prefix backend\" \"npm start --prefix frontend\""
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
